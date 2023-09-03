@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Login from './components/Login';
 import Layout from './components/Layout';
+import Register from './components/Register';
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+
         </Route>
       </Routes>
   );

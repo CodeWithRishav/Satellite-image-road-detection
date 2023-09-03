@@ -4,13 +4,15 @@ import '../index.css';
 
 const Header = () => {
   return (
-    <div className='flex justify-between align-center '>
+    <div className='flex justify-between items-center p-4 shadow-md'>
     
-     <Link className="site-logo" to="/">#ImageDehaze</Link>
-     <nav>
+     <Link className="site-logo font-bold" to="/">#ImageDehaze</Link>
+     <nav className=''>
       {/* <Link to="/home">Home</Link>
       <Link to="/about">About</Link> */}
-      <Link to="/login">Login</Link>
+      <Link to="/login" className='font-bold p-2'>Login</Link>
+      <Link to="/register" className='font-bold'>Register</Link>
+
      </nav>
 
     </div>
