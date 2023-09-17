@@ -26,14 +26,18 @@ const Dehaze = () => {
           />
         {selectedFile && (
          <div>
-         <p>Selected File: {selectedFile.name}</p>
+         <p className='mb-4'>Selected File: {selectedFile.name}</p>
          {selectedFile.type.startsWith('image/') ? (
-          <div className='flex items-center justify-center'>
+          <div className=''>
            <img
              src={URL.createObjectURL(selectedFile)}
              alt="Selected File Preview"
-             className="max-w-full max-h-96 mt-4"
+             className="max-w-full max-h-96 mb-4 "
            />
+           <button 
+           className='dehaze-btn mt-4'
+          //  onChange={handleClick}
+           >Dehaze Image</button>
            </div>
          ) : (
           <div className='flex items-center justify-center'>
