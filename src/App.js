@@ -7,7 +7,8 @@ import About from './components/About';
 import Login from './components/Login';
 import Layout from './components/Layout';
 import Register from './components/Register';
-
+import Team from './components/Team';
+import { Services } from './components/Services';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/dehaze" element={<Dehaze />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/team" element={<Team/>}/>
+        <Route path="/services" element={<Services />} />
+
 
         </Route>
       </Routes>

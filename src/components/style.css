@@ -1,4 +1,8 @@
-input[type="file"]::file-selector-button {
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+input[type="file"]::file-selector-button, .dehaze-btn {
     border: 2px solid #6c5ce7;
     padding: 10px 20px;
     border-radius: 50px;
@@ -6,21 +10,61 @@ input[type="file"]::file-selector-button {
     transition: 1s;
   }
   
-  input[type="file"]::file-selector-button:hover {
+  input[type="file"]::file-selector-button:hover , .dehaze-btn:hover {
     background-color: #81ecec;
     border: 2px solid #00cec9;
     cursor: pointer;
   }
-.dehaze-btn{
-  border: 2px solid #6c5ce7;
+  
+.explore, .login{
+  border: 2px solid #00cec9;
   padding: 10px 20px;
   border-radius: 50px;
-  background-color: #a29bfe;
+  background-color: #81ecec;
   transition: 1s;
 }
 
-.dehaze-btn:hover{
-  background-color: #81ecec;
-  border: 2px solid #00cec9;
+ .explore:hover, .login:hover{
+  /* background-color: #a29bfe; */
+  border: 2px solid #ffffff;
   cursor: pointer;
+}
+
+.img{
+  width: 300x;
+  height: 300px
+}
+
+/* HOME */
+
+.text-space{
+  letter-spacing: 3px;
+}
+
+.home-heading{
+  font-size : 45px;
+}
+
+.image{
+  width : 500px;
+  margin-left : 50px;
+}
+
+.icon{
+  color: #4DFFEA;
+  font-size: 1.4rem;
+  /* margin-bottom: 1rem; */
+}
+
+/* .about-img{
+  width : 400px;
+  height : 500px;
+} */
+
+
+
+/* LOGIN */
+
+.login-container{
+  width: 400px;
 }
