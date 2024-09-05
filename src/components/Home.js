@@ -10,11 +10,15 @@ const Home = () => {
 
       <div className="p-8 w-2/3">
         <p className="home-text home-heading text-bold text-[#4DFFEA]">
-          DeHazer
+          GekTrack Innovators
         </p>
         <p className="text-space pt-4 text-[#C0FFA1] mb-8">
-          Unleashing Clarity and Vision. Transforming Hazy Moments into
-          Crystal Clear Memories.
+        Revolutionizing Road Detection with AI and Satellite Imagery.
+        
+        </p>
+        <p className="text-space pt-4 text-[#C0FFA1] mb-8">
+        
+        Detect new roads and generate real-time alerts using cutting-edge satellite imagery and machine learning technology
         </p>
         <button className="explore w-48">Explore &rarr;</button>
       </div>

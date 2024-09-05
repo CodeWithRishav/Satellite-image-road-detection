@@ -25,9 +25,9 @@ export const Services = () => {
           <img src={Image4} className='image' />
           <div className='text-container' style={{ padding: '0 20px' }}>
             <h2 className='text'>
-            For Soldiers in the Battlefield</h2>
+            Automatic Road Detection</h2>
             <p className='para text-white '>
-            In the chaotic and high-stress environment of the battlefield, visibility is often compromised due to various factors like dust, smoke, and fog. Dehazer proves invaluable to soldiers by enhancing their situational awareness and safety
+            Our AI-powered model automatically identifies and maps new roads from satellite imagery, providing up-to-date information with high accuracy
             </p>
           </div>
         </div>
@@ -37,10 +37,10 @@ export const Services = () => {
         <div className='wrap'>
           <div className='text-container'>
             <h2 className='text'>
-            For Fire Alarm Systems
+            Real-Time Alerts
             </h2>
             <p className='para text-white'>
-            Fire alarm systems play a pivotal role in safeguarding lives and property. Dehazer complements these systems by improving their efficiency and reliability            </p>
+            Receive instant alerts about newly detected roads or changes in existing road networks, helping you stay informed and make timely decisions           </p>
           </div>
 
           <img src={Image3} className='image' />
@@ -50,10 +50,10 @@ export const Services = () => {
           <img src={Image2} className='image' />
           <div className='text-container' style={{ padding: '0 20px' }}>
             <h2 className='text'>
-            In Preventing Car Accidents
+            High-Resolution Satellite Imagery
            </h2>
             <p className='para text-white'>
-            Road accidents are a significant global concern, and Dehazer contributes to accident prevention and road safety         
+            Utilize high-resolution satellite images to ensure precise detection and monitoring of road networks, even in remote or hard-to-reach areas  
             </p> </div>
         </div>
        

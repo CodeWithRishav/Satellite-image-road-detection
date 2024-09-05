@@ -2,10 +2,10 @@ import React from 'react'
 import img from "./camera.jpg"
 import neha from "./images/neha.jpg"
 import neetu from "./images/neetu.jpg"
-import rohit from "./images/rohit.jpeg"
+import rohit from "./images/Rishav.jpg"
 import raushan from "./images/raushan.jpeg"
 import abhishek from "./images/abhishek.jpeg"
-import aman from "./images/aman.jpeg"
+import aman from "./images/neha.jpg"
 
 
 

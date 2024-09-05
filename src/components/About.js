@@ -12,12 +12,9 @@ const About = () => {
         <div className="flex">
           <div>
             <p className="w-2/3 text-white">
-              At DeHazewizard, we are passionate innovators in the field of
-              advanced image and video dehazing technology. Our project is
-              driven by our commitment to making a positive impact all dedicated
-              to the mission of bringing clarity and visibility to a wide range
-              of applications.{" "}
+            Welcome to our project page! Our innovative solution leverages satellite imagery and AI to automatically detect new road construction, monitor changes, and provide real-time alerts. Designed to support urban planners, emergency services, and transportation authorities, our system offers a smarter, faster way to keep up with rapid infrastructure development.{" "}
             </p>
+            
 
             <p className="text-orange-300 mt-12 text-2xl">OUR MISSION</p>
 
